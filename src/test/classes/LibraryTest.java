@@ -2,7 +2,11 @@ package test.classes;
 import main.classes.Book;
 import main.classes.Library;
 import main.classes.Student;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
+
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 
 public class LibraryTest {
@@ -29,5 +33,21 @@ public class LibraryTest {
         library.addStudent(student1);
         library.addStudent(student2);
         library.addStudent(student3);
+    }
+
+    
+    @Test
+    void testLendBook_toUnregisteredStudent() {
+        Student unregisteredStudent = new Student(("s4"), 4);
+        boolean lendResult = library.lendBook(book1, unregisteredStudent);
+        assertFalse(lendResult);
+        assertFalse(unregisteredStudent.hasBook(book1));
+    }
+
+    @Test
+    void testReturnBook() {
+        library.lendBook(book1, student1);
+        library.returnBook(book1, student1);
+        assertFalse(student1.hasBook(book1));
     }
 }

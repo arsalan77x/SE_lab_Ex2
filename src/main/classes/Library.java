@@ -19,7 +19,7 @@ public class Library {
         students.add(student);
     }
 
-    /**
+        /**
      * Lends a book to a student. Removes the book from the library and adds it to the student's list.
      * This operation fails if the library doesn't have the student or the book or the student already has the book.
      *
@@ -28,6 +28,10 @@ public class Library {
      * @return        Returns true if the operation is successful and false otherwise.
      */
     public boolean lendBook(Book book, Student student) {
+        if (!this.students.contains(student)) {
+            System.out.println("!! Student " + student.getName() + " not registered.");
+            return false;
+        }        
         if (!this.books.contains(book)) {
             System.out.println("!! Book " + book.getTitle() + " not registered.");
             return false;
@@ -58,6 +62,7 @@ public class Library {
         }
         if (student.hasBook(book)) {
             this.books.add(book);
+            student.removeBook(book);
             System.out.println(student.getName() + " returned " + book.getTitle() + ".");
             return true;
         }
@@ -65,6 +70,7 @@ public class Library {
         System.out.println("!! " + student.getName() + " doesn't have the book.");
         return false;
     }
+
 
     /**
      * Returns a list of students where the specified field matches any of the keys provided.
