@@ -5,10 +5,10 @@
 ## مراحل انجام آزمایش
 ### رفع ایرادات
 قبل از بررسی ایرادات، ابتدا فایل LibraryTest.java را ساخته و تابع ()setup که قبل از هر تستی باید اجرا شود را تعریف می‌کنیم. این تابع پیش‌نیاز همه‌ی تست‌ها است که در شکل زیر مشخص شده است.
-1
+
 <br>
 <p align="center">
-  <img src="https://github.com/arsalan77x/SE_lab_Ex2/assets/63359673/857b744c-f769-4cea-9112-1d1446670304" alt="Image Description">
+  <img src="https://github.com/arsalan77x/SE_lab_Ex2/assets/63359673/f7a20c82-d728-4483-ab31-9735d3c34994" alt="Image Description">
 <br>
   <em>تصویر 1</em>
 </p>
@@ -65,16 +65,17 @@
 
 در این قسمت ابتدا خواست خود از تابع searchBooks با چهار آزمون واحد زیر مشخص می‌کنیم. در توابع تصویر 9 به ترتیب می‌خواهیم لیست یک تعداد کتاب را با کلید آیدی، عنوان، نویسنده و اسم بگیریم که مورد آخر نباید پذیرفته شود چون اسم برای دانشجو است. البته برنامه تابعی برای گرفتن آیدی نداشت که آن را هم اضافه کردیم.تست آخر رد نمی‌شود چون در حال حاضر که تابعی نیست هم null خروجی می‌دهد. در ادامه بعد از اینکه تست‌ها رد شد به تکمیل کد پرداخته. (تصویر 10) در انتها نیز بار دیگر تست‌ها را اجرا کرده و همگی پاس شدند. (تصویر 11)
 
+
 <br>
 <p align="center">
-  <img src="https://github.com/arsalan77x/SE_lab_2/assets/63359673/9bbd9d81-b13b-4a51-a71e-40f1e89e4dd8" alt="Image Description">
+  <img src="https://github.com/arsalan77x/SE_lab_Ex2/assets/63359673/7e7c2a3f-6385-4b53-9af2-36507cfcc914" alt="Image Description">
 <br>
   <em>تصویر 9</em>
 <br>
-  <img src="https://github.com/arsalan77x/SE_lab_2/assets/63359673/d1346c68-58ff-4231-aab1-692a6be99d1e" alt="Image Description"> <br>
+  <img src="https://github.com/arsalan77x/SE_lab_Ex2/assets/63359673/0726074d-3002-4d8e-9f07-990f91b8f6cc" alt="Image Description"> <br>
 <em>تصویر 10</em>
   <br>
-    <img src="https://github.com/arsalan77x/SE_lab_2/assets/63359673/af2e9616-2cb5-46b2-9881-ad08e264ee61" alt="Image Description"> <br>
+    <img src="https://github.com/arsalan77x/SE_lab_Ex2/assets/63359673/59002415-7981-4984-b17e-03b58e528a64" alt="Image Description"> <br>
 <em>تصویر 11</em>
 </p>
 <br>
@@ -83,14 +84,14 @@
 
 <br>
 <p align="center">
-  <img src="https://github.com/arsalan77x/SE_lab_2/assets/63359673/0d70dbb7-c8b8-427c-bb31-9c7572a691ff" alt="Image Description">
+  <img src="https://github.com/arsalan77x/SE_lab_Ex2/assets/63359673/62ccc16e-ffe2-43ff-97a8-cb33af420746" alt="Image Description">
 <br>
   <em>تصویر 12</em>
 <br>
-  <img src="https://github.com/arsalan77x/SE_lab_2/assets/63359673/0d2f6d67-9554-474f-a133-d7b4b3921bc5" alt="Image Description"> <br>
+  <img src="https://github.com/arsalan77x/SE_lab_Ex2/assets/63359673/e968496f-2154-4194-8139-3bb4b4e9b3cb" alt="Image Description"> <br>
 <em>تصویر 13</em>
   <br>
-    <img src="https://github.com/arsalan77x/SE_lab_2/assets/63359673/b9381592-118b-4b04-8a47-2755c3f47be0" alt="Image Description"> <br>
+    <img src="https://github.com/arsalan77x/SE_lab_Ex2/assets/63359673/d8c40bc3-7ee6-4f88-8895-1f55efba0271" alt="Image Description"> <br>
 <em>تصویر 14</em>
 </p>
 <br>
